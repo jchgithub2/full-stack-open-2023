@@ -1,0 +1,22 @@
+POST http://localhost:3001/api/persons HTTP/1.1
+Content-Type: application/json
+
+{
+    
+    "name":"Juan Diaz " , 
+    "number": "32-65478001"
+}
+
+###
+
+GET http://localhost:3001/api/persons  HTTP/1.1
+
+###
+PUT http://localhost:3001/api/persons/64446d35294e7fd8d642ce3a HTTP/1.1
+Content-Type: application/json
+
+{
+    
+    "name":"Juan Diaz " , 
+    "number": "32-65478001"
+}
