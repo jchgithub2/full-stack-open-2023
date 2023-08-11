@@ -1,0 +1,13 @@
+GET http://localhost:3001/api/notes/64c163f2274d3e93455f7f1f  HTTP/1.1
+
+###
+POST http://localhost:3001/api/notes HTTP/1.1
+Content-Type: application/json
+Authorization:  bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1sdXVra2FpIiwiaWQiOiI2NGMzM2ViNWYyNWIwODYxNzhmNGQ0NDgiLCJpYXQiOjE2OTA1MjAzMDJ9._OCKAgHK4CvUjEBjOmXDz8UjYMRFH7pBXihzcfAvOYg
+
+{
+    "content": "Single page app use token authentication",
+    "important": true
+}
+
+
