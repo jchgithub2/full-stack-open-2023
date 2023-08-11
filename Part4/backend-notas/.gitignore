@@ -1,7 +1,0 @@
-node_modules
-fly.toml
-Dockerfile
-.dockerignore
-.eslintignore
-build/
-.env
