@@ -1,6 +1,6 @@
 DELETE http://localhost:3003/api/blogs/64ceadd39c548a400c1ea457 HTTP/1.1
 Content-Type: application/json
-Authorization:  Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlJvYmVydCIsImlkIjoiNjRjZGNkMDhlYjY2ZmQ0NGU1NTM3NDQ4IiwiaWF0IjoxNjkxMjU1OTEzfQ.H_adXTOK1RSbW_B8OFu3qegSHNgoWhMEEA2uutCtk3Y
+Authorization:  Bearer {token}
 
 
 
@@ -8,7 +8,7 @@ Authorization:  Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlJv
 ###
 DELETE http://localhost:3003/api/blogs/64ceadd39c548a400c1ea457 HTTP/1.1
 Content-Type: application/json
-Authorization:  Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlJvYmVydCIsImlkIjoiNjRjZGNkMDhlYjY2ZmQ0NGU1NTM3NDQ4IiwiaWF0IjoxNjkxMjU1OTEzfQ.H_adXTOK1RSbW_B8OFu3qegSHNgoWhMEEA2uutCtk3Y
+Authorization:  Bearer {token}
 
 {
     "title": "Canonical string reduction",
