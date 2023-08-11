@@ -1,0 +1,40 @@
+
+POST http://localhost:3003/api/blogs HTTP/1.1
+Content-Type: application/json
+Authorization:  Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjY0ZDU0NzQ3Yzg5MmRkMmUxZjA0MzgxYSIsImlhdCI6MTY5MTY5OTEwNn0.Yove8FUlYabYcVgmJ1PVlaWkIIlCkFAoGcUXM--kHeM
+
+{
+    "title": "Canonical string reduction",
+    "author": "Edsger W. Dijkstra",
+    "url": "http://www.cs.utexas.edu/~EWD/transcriptions/EWD08xx/EWD808.html",
+    "likes": 12,
+    "id": "5a422b3a1b54a676234d17f9",
+    "userId": "64d54747c892dd2e1f04381a"
+}
+
+###
+POST http://localhost:3003/api/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "username": "root",
+    "password": "sekret"
+
+}
+
+###
+
+GET http://localhost:3003/api/blogs HTTP/1.1
+Content-Type: application/json
+
+###
+
+PUT http://localhost:3003/api/blogs/644c47a41d5dcfc8252c631f HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "DWB",
+    "author": "David Walsh",
+    "url": "https://davidwalsh.name/",
+    "likes": 138
+}
