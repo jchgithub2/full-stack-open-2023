@@ -156,8 +156,6 @@ describe('the HTTP GET method of blogs', () => {
    
      })
       
-      // expect(newLike).toBeDefined()
-    })
 
     describe('Prueba para la creación de blogs a través del endpoint /api/blogs', () => {
       test('Debería responder con código de estado 400 Bad Request si falta la propiedad "title"', async () => {
@@ -206,7 +204,7 @@ describe('the HTTP GET method of blogs', () => {
         expect(result.status).toBe(200);
       })
     })
-  /* escriba una nueva prueba para asegurarse de que la adición de un blog falla con el código de estado adecuado 401 Unauthorized si no se proporciona un token. */
+
   describe('Agregar un blog', () => {
     test('debería devolver 401 Unauthorized si no se proporciona un token', async () => {
       const newBlog ={
